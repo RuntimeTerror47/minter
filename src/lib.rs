@@ -1,7 +1,7 @@
 pub mod contract;
+mod contract_test;
 mod error;
-pub mod helpers;
-pub mod integration_tests;
+mod helper;
 pub mod msg;
 pub mod state;
 
